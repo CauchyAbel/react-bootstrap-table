@@ -108,7 +108,7 @@ class TableHeader extends Component {
 
     const trs = rows.map((row, indexRow)=>{
       return (
-        <tr key={ indexRow }>
+        <tr className="d-flex" key={ indexRow }>
           { row }
         </tr>
       );
